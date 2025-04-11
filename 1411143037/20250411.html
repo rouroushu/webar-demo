@@ -11,6 +11,17 @@
          <a-cylinder position="1 0:75 -3" radius="0.5" height="1.5" color="#3cb371"></a-cylinder>
          <a-plane position="0 0-4" rotation="-90 0 6" width="6" height="6" color="#bc8f8f"></a-plane>
          <a-sky color="#b0c4de"></a=sky>
+           <body>
+            
+             <a-scene embedded arjs="sourceType: webcam;">
+             <a-marker preset="hiro">
+             <a-box position="0 0.5 0" rotation="0 45 0"
+              color="#4CC3D9"></a-box>
+           </a-marker>
+           <a-entity camera></a-entity>
+           </a-scene>
+         </body>
+    </html>
     </a-scene>
   </body>
 </html>
